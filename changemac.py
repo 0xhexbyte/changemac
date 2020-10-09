@@ -4,7 +4,7 @@ import subprocess
 
 #Defining the variables and taking input from the user.
 
-interface = input("Interface >")
+interface = input("Interface > ")
 mac_id = input("New MAC id > ")
 
 print ("[*] Changing MAC addr for " + interface + " interface to " + mac_id)
