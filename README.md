@@ -5,7 +5,13 @@ changemac is a simple script to change your mac address, keep it as your quick l
 ## Usage
 
 ```
-python3 changemac.py
+python3 changemac.py -i {interface name} -m {desired mac addr}
 ```
+
+For help:
+```
+python3 changemac.py -h
+```
+
 
 Thanks for checking in!
